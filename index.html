@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Quiz App </title>
+        <meta charset="utf-8"/>
+        <meta name = "viewport" content="width = device-width, initial-scale = 1.0"/>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <main>
+        <section id="quizBody" class="quiz">
+            <div class="title">
+                <h1 class="heading">House of the Dragon</h1>
+                <h2 class="subheading">Are you a true fan?</h2>
+            </div>
+            <div class = "result hide">
+                <p class="score">Score</p>
+                <p class="reload">
+                    <button onclick="location.reload()"class="tryAgain">Try again?</button>
+                </p>
+            </div>
+            <form class="quiz-form">
+                <div class="question">
+                    <p>What is the name of Rhaenyra's dragon Quiz?</p>
+                    <div class="option">
+                        <input type="radio" class="radio" name="q1" value="A" checked>
+                        <label for="q1">Syrax</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" class="radio" name="q1" value="B">
+                        <label for="q1">Vermithor</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" class="radio" name="q1" value="C">
+                        <label for="q1">Silverwing</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" class="radio" name="q1" value="D">
+                        <label for="q1">Sunfyre</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>How many times did you watch the Rhaenyra/Mysaria kiss?</p>
+                    <div class="option">
+                        <input type="radio" class="radio" name="q2" value="A" checked>
+                        <label for="q2">Yes</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" class="radio" name="q2" value="B">
+                        <label for="q2">Just once or twice</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" class="radio" name="q2" value="C">
+                        <label for="q2">I think it came out of nowhere</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" class="radio" name="q2" value="D">
+                        <label for="q2">Rhaenyra is better with Daemon</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>What is the color of the Hightowers?</p>
+                    <div class="option">
+                        <input type="radio" class="radio" name="q3" value="A" checked>
+                        <label for="q3">Cream and Gold</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" class="radio" name="q3" value="B">
+                        <label for="q3">Green and Black</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" class="radio" name="q3" value="C">
+                        <label for="q3">Red and Black</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" class="radio" name="q3" value="D">
+                        <label for="q3">Blue and White</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>How old is Rhaenyra when the dance of the dragons starts?</p>
+                    <div class="option">
+                        <input type="radio" class="radio" name="q4" value="A" checked>
+                        <label for="q4">28</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" class="radio" name="q4" value="B" checked>
+                        <label for="q4">24</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" class="radio" name="q4" value="C" checked>
+                        <label for="q4">32</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" class="radio" name="q4" value="D" checked>
+                        <label for="q4">41</label>
+                    </div>
+                </div>
+                <div class="submitDiv"><input type="submit" class="submit"></input></div>
+            </form>
+        </section>
+      </main>
+        <script src="./script.js"></script>
+    </body>
+</html>
