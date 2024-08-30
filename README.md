@@ -1,0 +1,1 @@
+A project designed to exlore the use of event listeners in Javascript to manipulate the DOM. The project focuses on a fluid score that updates upon submit as well as allowing the quiz questions to change color depending on which answer is right. 
